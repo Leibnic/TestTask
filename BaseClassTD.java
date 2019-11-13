@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class BaseClassTD {
 	public static void main (String[] args) {
 		Scanner in = new Scanner (System.in);
-		System.out.print ("Введите строку из нулей и единиц (max = 9 символов): ");
+		System.out.print ("Entered a string (max = 9 num): ");
 		String chislo = in.nextLine ();
-		System.out.println ("Введите массив из 9 строк (в столбец):");
+		System.out.println ("Enter an array of 9 lines (Into a column):");
 		String[] A = new String[9];
 		for (int l = 0; l < 9; l++) {
 			   A[l] = in.nextLine ();
@@ -20,7 +20,7 @@ public class BaseClassTD {
 			k++;
 		}
 		if (i == 0) {
-			System.out.print("В строке нет цифры 1");
+			System.out.print("There is NO number 1 in the line");
 		}
 		in.close ();
 	}
